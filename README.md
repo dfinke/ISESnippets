@@ -1,6 +1,9 @@
-## PowerShell ISE Snippets
+# PowerShell ISE Snippets
 
-I put my snippets here: 
+## Demo
+![image](https://raw.github.com/dfinke/ISESnippets/master/images/demo.gif)
+
+## I put my snippets here
 
 	$snippetPath = Join-Path (Split-Path $profile.CurrentUserCurrentHost) "Snippets"
 	$null = mkdir $snippetPath
